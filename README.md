@@ -20,7 +20,7 @@ limitations under the License.
 
 # itercusumabs2
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Create an [iterator][mdn-iterator-protocol] which iteratively computes a cumulative sum of squared absolute values.
 
@@ -157,9 +157,9 @@ while ( true ) {
 
 ## See Also
 
--   [`@stdlib/stats/iter/cumeanabs2`][@stdlib/stats/iter/cumeanabs2]: create an iterator which iteratively computes a cumulative arithmetic mean of squared absolute values.
--   [`@stdlib/stats/iter/cusumabs`][@stdlib/stats/iter/cusumabs]: create an iterator which iteratively computes a cumulative sum of absolute values.
--   [`@stdlib/stats/iter/sumabs2`][@stdlib/stats/iter/sumabs2]: compute the sum of squared absolute values for all iterated values.
+-   <span class="package-name">[`@stdlib/stats/iter/cumeanabs2`][@stdlib/stats/iter/cumeanabs2]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative arithmetic mean of squared absolute values.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/cusumabs`][@stdlib/stats/iter/cusumabs]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative sum of absolute values.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/sumabs2`][@stdlib/stats/iter/sumabs2]</span><span class="delimiter">: </span><span class="description">compute the sum of squared absolute values for all iterated values.</span>
 
 </section>
 
@@ -210,8 +210,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-iter-cusumabs2/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-iter-cusumabs2?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/stats-iter-cusumabs2.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/stats-iter-cusumabs2/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
