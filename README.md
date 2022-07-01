@@ -43,32 +43,30 @@ The cumulative sum of squared absolute values is defined as
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-iter-cusumabs2
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-itercusumabs2 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cusumabs2@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cusumabs2@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.itercusumabs2;
-})();
-</script>
+var itercusumabs2 = require( '@stdlib/stats-iter-cusumabs2' );
 ```
 
 #### itercusumabs2( iterator )
@@ -121,14 +119,9 @@ s = it.next().value;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cusumabs2@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var runif = require( '@stdlib/random-iter-uniform' );
+var itercusumabs2 = require( '@stdlib/stats-iter-cusumabs2' );
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( -10.0, 10.0, {
@@ -150,11 +143,6 @@ while ( true ) {
         break;
     }
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -250,6 +238,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/stats-iter-cusumabs2/tree/deno
 [umd-url]: https://github.com/stdlib-js/stats-iter-cusumabs2/tree/umd
 [esm-url]: https://github.com/stdlib-js/stats-iter-cusumabs2/tree/esm
+[branches-url]: https://github.com/stdlib-js/stats-iter-cusumabs2/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-iter-cusumabs2/main/LICENSE
 
@@ -257,11 +246,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/iter/cumeanabs2]: https://github.com/stdlib-js/stats-iter-cumeanabs2/tree/umd
+[@stdlib/stats/iter/cumeanabs2]: https://github.com/stdlib-js/stats-iter-cumeanabs2
 
-[@stdlib/stats/iter/cusumabs]: https://github.com/stdlib-js/stats-iter-cusumabs/tree/umd
+[@stdlib/stats/iter/cusumabs]: https://github.com/stdlib-js/stats-iter-cusumabs
 
-[@stdlib/stats/iter/sumabs2]: https://github.com/stdlib-js/stats-iter-sumabs2/tree/umd
+[@stdlib/stats/iter/sumabs2]: https://github.com/stdlib-js/stats-iter-sumabs2
 
 <!-- </related-links> -->
 
