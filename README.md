@@ -65,7 +65,7 @@ The cumulative sum of squared absolute values is defined as
 ## Usage
 
 ```javascript
-import itercusumabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cusumabs2@deno/mod.js';
+import itercusumabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cusumabs2@v0.1.0-deno/mod.js';
 ```
 
 #### itercusumabs2( iterator )
@@ -120,7 +120,7 @@ s = it.next().value;
 
 ```javascript
 import runif from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@deno/mod.js';
-import itercusumabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cusumabs2@deno/mod.js';
+import itercusumabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cusumabs2@v0.1.0-deno/mod.js';
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( -10.0, 10.0, {
